@@ -1,0 +1,19 @@
+{
+  "name": "backend_app",
+  "version": "1.0.0",
+  "description": "it is backend app part of complete application for implementing docker using multiple containers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -L index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.7",
+    "morgan": "^1.10.0"
+  }
+}

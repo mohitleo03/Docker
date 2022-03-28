@@ -1,0 +1,19 @@
+{
+  "name": "docker_shopapi",
+  "version": "1.0.0",
+  "description": "this is shopapi application for learning & implementing multiple docker containers in single image & connecting containers with each other",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Mohit Malik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {}
+}
